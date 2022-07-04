@@ -4,7 +4,7 @@
 
 python "D:\Development\Python\Wikipedia Article of the day\main.py"
 
-cd "D:\Development\Python\Wikipedia Article of the day\"
+:: cd "D:\Development\Python\Wikipedia Article of the day\"
 
 git add .
 
