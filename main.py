@@ -32,20 +32,25 @@ try:
             img = "No Images to show"
         # paragraph
         try:
-            p1 = fsoup.select(
-                'p:nth-child(10) , p:nth-child(9) , p:nth-child(8) , .hlist+ p')[0]
+            p1 = fsoup.find_all('p')[1]
         except:
             p1 = ' '
         try:
-            p2 = fsoup.select(
-                'p:nth-child(10) , p:nth-child(9) , p:nth-child(8) , .hlist+ p')[1]
+            p2 = fsoup.find_all('p')[2]
         except:
             p2 = ' '
         try:
-            p3 = fsoup.select(
-                'p:nth-child(10) , p:nth-child(9) , p:nth-child(8) , .hlist+ p')[2]
+            p3 = fsoup.find_all('p')[3]
         except:
             p3 = ' '
+        try:
+            p4 = fsoup.find_all('p')[4]
+        except:
+            p4 = ' '
+        try:
+            p5 = fsoup.find_all('p')[4]
+        except:
+            p5 = ' '
 
         # writing html
         html_init = '''<!DOCTYPE html>
@@ -64,13 +69,16 @@ try:
             {para1}
             {para2}
             {para3}
+            {para4}
+            {para5}
+            
         </body>
         </html>
         '''
 
         # formatting html string and saving to a file
         html = html_init.format(heading=featured, thumbnail=img,
-                                para1=p1, para2=p2, para3=p3)
+                                para1=p1, para2=p2, para3=p3, para4=p4, para5=p5)
 
         with open("index.html", 'wb') as file:
             file.write(html.encode())
