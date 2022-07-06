@@ -27,7 +27,7 @@ try:
 
         # getting featured image
         try:
-            img = fsoup.find('div', class_='thumbinner').find('a').find('img')
+            img = fsoup.find_all('img')[1]
         except:
             img = "No Images to show"
         # paragraph
