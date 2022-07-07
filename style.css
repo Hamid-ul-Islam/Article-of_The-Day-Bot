@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 
 body{
@@ -15,8 +16,15 @@ p, h1{
     font-family: 'Poppins', sans-serif;
     font-weight: 600;
 }
+
+
 h1{
-    background-color: burlywood;
+    font-family: 'Finlandica', sans-serif;
+    /* font-family: 'Lobster', cursive; */
+    border-top: 2px solid;
+    border-bottom: 2px solid;
+    color: rgb(25, 25, 36);
+    letter-spacing: 2px;
     padding: 20px;
     border-radius: 5px;
     -webkit-border-radius: 5px;
@@ -34,6 +42,7 @@ a{
 }
 
 img{
+    border: 2px solid;
     margin-bottom: 10px;
     width: 350px;
     height: 320px;
