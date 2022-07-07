@@ -18,11 +18,12 @@ Click here [https://hamidthedev.github.io/Article-of_The-Day-Bot/]
 ## Getting Started
 
 - clone the repository by running\
-   `https://github.com/HamidTheDev/TodoList.git`  
+   `https://github.com/HamidTheDev/Article-of_The-Day-Bot.git`  
 - navigate to the folder\
-   `cd TodoList`
+   `Article-of_The-Day-Bot`
 - Run packages\
-   `Double Click Index.html`
+   `Double Click CMD Script`
+   `Finally Double Click index.html to see the result`
   
 
 ## Author
