@@ -1,4 +1,4 @@
-@ECHO OFF
+:: @ECHO OFF
 
 :: This CMD script auto update and commit data to github repository daily.
 
