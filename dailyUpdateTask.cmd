@@ -1,4 +1,4 @@
-:: @ECHO OFF
+@ECHO OFF
 
 :: This CMD script auto update and commit data to github repository daily.
 
@@ -11,5 +11,3 @@ git add .
 git commit -m "Commited by Automated Bot"
 
 git push
-
-PAUSE
