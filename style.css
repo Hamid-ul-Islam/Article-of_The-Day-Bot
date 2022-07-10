@@ -19,9 +19,10 @@ p, h1{
 
 
 h1{
+    text-transform: capitalize;
     font-family: 'Finlandica', sans-serif;
-    /* font-family: 'Lobster', cursive; */
-    border-top: 2px solid;
+    /*font-family: 'Lobster', cursive;
+    */border-top: 2px solid;
     border-bottom: 2px solid;
     color: rgb(25, 25, 36);
     letter-spacing: 2px;
@@ -31,6 +32,10 @@ h1{
     -moz-border-radius: 5px;
     -ms-border-radius: 5px;
     -o-border-radius: 5px;
+    -webkit-transform:;
+    -moz-transform:;
+    -ms-transform:;
+    -o-transform:;
 }
 
 a{
