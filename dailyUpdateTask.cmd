@@ -2,9 +2,9 @@
 
 :: This CMD script auto update and commit data to github repository daily.
 
-python "D:\Development\Python\Wikipedia Article of the day\main.py"
+python "D:\Development\PYTHON\Final Projects\Wikipedia Article of the day\main.py"
 
-cd "D:\Development\Python\Wikipedia Article of the day\"
+cd "D:\Development\PYTHON\Final Projects\Wikipedia Article of the day\"
 
 git add .
 
