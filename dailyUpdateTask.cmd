@@ -11,3 +11,4 @@ git add .
 git commit -m "Commited by Automated Bot"
 
 git push
+PAUSE
